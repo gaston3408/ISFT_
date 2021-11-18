@@ -10,5 +10,7 @@ int main()
     action.getAnimals(animalList);
     action.showAnimals (animalList);
     action.deleteAnimals(animalList);
+
+    delete animalList;
     return 0;
 }
