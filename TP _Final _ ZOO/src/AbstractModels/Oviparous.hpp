@@ -34,12 +34,12 @@ public:
 
     void move()
     {
-        cout << this->getName() << " se esta moviendo" << endl;
+        cout << "El oviparo " << this->getName() << " se esta moviendo" << endl;
     }
 
     void eat()
     {
-        cout << this->getName() << " está comiendo" << endl;
+        cout << "El oviparo " << this->getName() << " está comiendo" << endl;
     }
 
     void setYearsOld(int value)
