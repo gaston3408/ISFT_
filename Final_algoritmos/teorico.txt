@@ -1,0 +1,28 @@
+1. Explicar el concepto de Problema según G. Polya
+
+La resoluucion de problemas como un procedimiento.
+Consiste en encontrar el problema mediante preguntas , resumir el problema en una frase y buscar un problema parecido.
+
+2. Que son los paradigmas, relacionelo con paradigmas de Programación.
+
+Un paradigma es una forma de programar, un estilo y de estructurar el codigo.
+
+3. Que entiende por abstracción, dar ejemplos de Abstracción.
+
+La abstracción es el concepto en el cual se busca un enfoque mas abstracto ,
+es decir se deja de lado lo complejo y se lleva el enfoque a algo real .
+
+4. ¿Qué entiende por Polimorfismo?
+
+El polimorfismo es la capacidad de que una funcionalidad sea utilizada de diferentes maneras , 
+por ejemplo una clase abstracta declara un método que es utilizado por las clases que la heredan , pero estas la implementan de diferente forma pero llegando a la misma meta.
+
+5. ¿Qué es el Encapsulamiento, dar un ejemplo en POO?
+
+El encapsulamiento es dejar caracteristicas privadas para uso unico de la clase y 
+estas pueden ser accedidas desde metodos para obtenerlas y modificarlas. 
+
+6. ¿Relacionar Problema, Abstracción y Programación?
+
+El problema es algo que surge para resolver , la abstracción consiste en abstraerse de cosas poco importantes y 
+concentrarse en lo importante del problema , en base a esa abstracción se crea el algoritmo.
