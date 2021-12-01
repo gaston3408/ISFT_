@@ -37,7 +37,7 @@ public:
             cout << "Selecciona un tipo de figura: ";
             cin >> type;
 
-            if(type != 0){
+            if(type != 0 && figureList->count < 3){
 
                 if(type == 1){
                 cout << "Ingresa el radio: ";
@@ -52,14 +52,17 @@ public:
                 Figure* figure = this->getFigure(figureType, x);
                 figureList->addFigure(figure);
             }
+            else{
+                cout << "No hay mas lugar par agregar"<< endl;
+            }
         } 
     };
 
     void showFigures(FigureList *figureList){
         for (int i = 0; i < figureList->count; i++)
         {
-            cout << figureList->figures[i]->getPerimeter() << endl;
-            cout << figureList->figures[i]->getArea() << endl;
+            cout << "El perimetro de la figura " << i << " es " << figureList->figures[i]->getPerimeter() << endl;
+            cout << "El area de la figura " << i << " es " << figureList->figures[i]->getArea() << endl;
         }
     };
 
